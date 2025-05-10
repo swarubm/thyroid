@@ -20,7 +20,7 @@ import pickle
 import warnings
 warnings.filterwarnings('ignore')
 %matplotlib inline
-df = pd.read_csv(r"C:\Users\sssun\Sunita\iNeuron\Thyroid_Detection_iNeuron\EDA_ThyroidDetection\hypothyroid.csv")
+df = pd.read_csv(r"sardar.csv")
 df.head()
   df.info()
   data = df.copy()
